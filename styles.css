@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Cooper';
+    src: url('font/CooperFiveOpti-Black.otf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+:root {
+    --color-body: #FEFF99;
+    --color-ppal: #90EBDC;
+    --color-sec: #8BDD98;
+    --color-extra: #F62D16;
+}
+
+* {
+    box-sizing: border-box;
+    font-size: 1.2vw;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--color-body);
+}
+
+h1, .comment {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Cooper';
+    font-size: 4em;
+    text-shadow: 1px 1px 3px var(--color-extra);
+}
+
+.comment {
+    color: var(--color-extra);
+}
+
+#img-div {
+    background-color: var(--color-ppal);
+    width: 85%;
+    margin: 5% auto;
+    padding: 4%;
+    border-radius: 3vw;
+    box-shadow: 0 0 15px 10px var(--color-ppal);
+}
+
+#image {
+    width: 60%;
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+#img-caption {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+#tribute-info {
+    width: 90%;
+    margin: 2% auto;
+}
+
+ul {
+    margin-bottom: 3%;
+    list-style-type: none;
+}
+
+ul > li {
+    font-size: 1.2em;
+    margin-bottom: 2%;
+}
+
+ul > li:first-child {
+    margin-top: 2%;
+}
+
+ul > li > span {
+    font-family: 'Cooper';
+}
+
+ul > li> ul {
+    margin-left: 5%;
+    list-style-type: none;
+}
+
+ul > li > ul > li {
+    
+    background-image: url(img/star.png);
+    padding-left: 2rem;
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+}
+
+h4 {
+    font-family: 'Cooper';
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 2%;
+}
+
+h4 > a {
+    color: var(--color-extra);
+    text-decoration: none;
+}
+
